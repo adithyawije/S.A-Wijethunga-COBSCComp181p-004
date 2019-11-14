@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MenuViewController.swift
 //  S.A-Wijethunga-COBSCComp181p-004
 //
 //  Created by Digital-02 on 11/14/19.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MenuViewController: UITableViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad() { 
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8C2379E1237D86BC00DA9710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2379E0237D86BC00DA9710 /* AppDelegate.swift */; };
-		8C2379E3237D86BC00DA9710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2379E2237D86BC00DA9710 /* ViewController.swift */; };
 		8C2379E6237D86BC00DA9710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2379E4237D86BC00DA9710 /* Main.storyboard */; };
 		8C2379E9237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C2379E7237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodeld */; };
 		8C2379EB237D86BC00DA9710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2379EA237D86BC00DA9710 /* Assets.xcassets */; };
 		8C2379EE237D86BC00DA9710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2379EC237D86BC00DA9710 /* LaunchScreen.storyboard */; };
+		8C96741E237D8F180070BC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96741D237D8F180070BC02 /* ViewController.swift */; };
+		8C967420237D8F360070BC02 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96741F237D8F360070BC02 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C2379DD237D86BC00DA9710 /* S.A-Wijethunga-COBSCComp181p-004.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S.A-Wijethunga-COBSCComp181p-004.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2379E0237D86BC00DA9710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C2379E2237D86BC00DA9710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C2379E5237D86BC00DA9710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C2379E8237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = S_A_Wijethunga_COBSCComp181p_004.xcdatamodel; sourceTree = "<group>"; };
 		8C2379EA237D86BC00DA9710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2379ED237D86BC00DA9710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2379EF237D86BC00DA9710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C96741D237D8F180070BC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C96741F237D8F360070BC02 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8C2379E0237D86BC00DA9710 /* AppDelegate.swift */,
-				8C2379E2237D86BC00DA9710 /* ViewController.swift */,
 				8C2379E4237D86BC00DA9710 /* Main.storyboard */,
 				8C2379EA237D86BC00DA9710 /* Assets.xcassets */,
 				8C2379EC237D86BC00DA9710 /* LaunchScreen.storyboard */,
 				8C2379EF237D86BC00DA9710 /* Info.plist */,
 				8C2379E7237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodeld */,
+				8C96741D237D8F180070BC02 /* ViewController.swift */,
+				8C96741F237D8F360070BC02 /* MenuViewController.swift */,
 			);
 			path = "S.A-Wijethunga-COBSCComp181p-004";
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C96741E237D8F180070BC02 /* ViewController.swift in Sources */,
 				8C2379E9237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodeld in Sources */,
-				8C2379E3237D86BC00DA9710 /* ViewController.swift in Sources */,
 				8C2379E1237D86BC00DA9710 /* AppDelegate.swift in Sources */,
+				8C967420237D8F360070BC02 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
