@@ -34,33 +34,32 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1ad-NF-S0k">
                                 <rect key="frame" x="49" y="234" width="277" height="187"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tik" translatesAutoresizingMaskIntoConstraints="NO" id="Xla-uI-eXG">
-                                <rect key="frame" x="31" y="459" width="39" height="35"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descrpition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7B-1F-CZW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Descrpition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7B-1F-CZW">
                                 <rect key="frame" x="9" y="526" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D51-qq-IKd">
+                                <rect key="frame" x="16" y="474" width="41" height="35"/>
+                                <state key="normal" title="Button" image="Tik"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="D51-qq-IKd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="825-4t-na9"/>
                             <constraint firstItem="yiV-OK-0Lc" firstAttribute="top" secondItem="oQP-Nb-YxD" secondAttribute="bottom" constant="28" id="AGw-Ak-VeW"/>
-                            <constraint firstItem="V7B-1F-CZW" firstAttribute="top" secondItem="Xla-uI-eXG" secondAttribute="bottom" constant="32" id="ALN-hX-e8M"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xla-uI-eXG" secondAttribute="trailing" constant="305" id="C7f-8a-WRM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1ad-NF-S0k" secondAttribute="bottom" constant="246" id="D0o-e2-Y5E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D51-qq-IKd" secondAttribute="bottom" constant="158" id="D5t-4P-ZvZ"/>
                             <constraint firstItem="1ad-NF-S0k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="EHU-zT-xf5"/>
                             <constraint firstItem="oQP-Nb-YxD" firstAttribute="leading" secondItem="yiV-OK-0Lc" secondAttribute="trailing" constant="-33.5" id="LUH-CT-X3g"/>
                             <constraint firstItem="1ad-NF-S0k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NUd-8A-aE9"/>
-                            <constraint firstItem="Xla-uI-eXG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="SV0-aK-x8P"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xla-uI-eXG" secondAttribute="bottom" constant="173" id="UIB-U0-uOP"/>
                             <constraint firstItem="oQP-Nb-YxD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-125.5" id="Vch-Hd-T7j"/>
                             <constraint firstItem="oQP-Nb-YxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="b2u-W3-4Ef"/>
                             <constraint firstItem="oQP-Nb-YxD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="ckE-mg-Tmm"/>
                             <constraint firstItem="V7B-1F-CZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="9" id="j9c-9r-mA6"/>
+                            <constraint firstItem="D51-qq-IKd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="358" id="ohR-90-grL"/>
                             <constraint firstItem="1ad-NF-S0k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="r24-va-4Wf"/>
-                            <constraint firstItem="Xla-uI-eXG" firstAttribute="top" secondItem="1ad-NF-S0k" secondAttribute="bottom" constant="38" id="r4w-5K-uuE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
