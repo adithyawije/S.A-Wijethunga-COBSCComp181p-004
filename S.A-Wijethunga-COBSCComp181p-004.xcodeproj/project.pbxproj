@@ -18,6 +18,8 @@
 		8C967420237D8F360070BC02 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C96741F237D8F360070BC02 /* MenuViewController.swift */; };
 		8C97FDD0238427D600ED7259 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C97FDCF238427D600ED7259 /* GoogleService-Info.plist */; };
 		8C97FDD22384313300ED7259 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97FDD12384313300ED7259 /* Utils.swift */; };
+		8CC8B4992386CB6F00C19146 /* PostMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8B4982386CB6F00C19146 /* PostMethod.swift */; };
+		8CC8B4A02386E35600C19146 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8B49F2386E35600C19146 /* AddPostViewController.swift */; };
 		FA31ACE8238250DB00BA28D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA31ACE7238250DB00BA28D7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		8C96741F237D8F360070BC02 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		8C97FDCF238427D600ED7259 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C97FDD12384313300ED7259 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8CC8B4982386CB6F00C19146 /* PostMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMethod.swift; sourceTree = "<group>"; };
+		8CC8B49F2386E35600C19146 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		E25450ABD65C64B6324CC73B /* Pods_S_A_Wijethunga_COBSCComp181p_004.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S_A_Wijethunga_COBSCComp181p_004.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA31ACE7238250DB00BA28D7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +77,8 @@
 		8C2379DF237D86BC00DA9710 /* S.A-Wijethunga-COBSCComp181p-004 */ = {
 			isa = PBXGroup;
 			children = (
+				8CC8B49A2386CBEF00C19146 /* Cell View */,
+				8CC8B4972386CB3000C19146 /* Models */,
 				8C63BA76238422B9004BA9B6 /* View Controller */,
 				FA31ACE623824E9000BA28D7 /* Storyboards */,
 				8C2379E0237D86BC00DA9710 /* AppDelegate.swift */,
@@ -92,8 +98,24 @@
 			isa = PBXGroup;
 			children = (
 				8C63BA77238422FB004BA9B6 /* SignInViewController.swift */,
+				8CC8B49F2386E35600C19146 /* AddPostViewController.swift */,
 			);
 			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8CC8B4972386CB3000C19146 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8B4982386CB6F00C19146 /* PostMethod.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CC8B49A2386CBEF00C19146 /* Cell View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cell View";
 			sourceTree = "<group>";
 		};
 		9449B7E2D1CC04F77A9D9F4C /* Frameworks */ = {
@@ -256,7 +278,9 @@
 				8C2379E9237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodeld in Sources */,
 				8C2379E1237D86BC00DA9710 /* AppDelegate.swift in Sources */,
 				8C63BA78238422FB004BA9B6 /* SignInViewController.swift in Sources */,
+				8CC8B4A02386E35600C19146 /* AddPostViewController.swift in Sources */,
 				8C967420237D8F360070BC02 /* MenuViewController.swift in Sources */,
+				8CC8B4992386CB6F00C19146 /* PostMethod.swift in Sources */,
 				8C97FDD22384313300ED7259 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
