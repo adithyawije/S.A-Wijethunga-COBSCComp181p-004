@@ -9,6 +9,9 @@ target 'S.A-Wijethunga-COBSCComp181p-004' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Nuke','~> 7.0'
+  pod 'BiometricAuthentication'
+  pod 'Alamofire', '~> 5.0.0-rc.2'
+  pod 'SwiftyJSON'
 
   # Pods for S.A-Wijethunga-COBSCComp181p-004
 

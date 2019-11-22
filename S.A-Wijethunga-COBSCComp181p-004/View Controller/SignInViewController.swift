@@ -36,7 +36,8 @@ class SignInViewController: UIViewController {
                 strongSelf.alert(message: error?.localizedDescription ?? "Error")
                 return
             }else{
-                strongSelf.performSegue(withIdentifier: "homeNav", sender: self)
+                let vc = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "homeNavVC")
+                self?.present(vc, animated: true, completion: nil)
             }
         }
     }
