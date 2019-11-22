@@ -406,7 +406,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="pickImager:" destination="N89-Vg-6i3" eventType="touchUpInside" id="idb-yD-0sk"/>
-                                    <action selector="savePost:" destination="N89-Vg-6i3" eventType="touchUpInside" id="zsV-Tq-E6K"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qXy-tO-ME9">
@@ -426,6 +425,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addPost:" destination="N89-Vg-6i3" eventType="touchUpInside" id="YM4-Fe-aVF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -518,37 +520,40 @@
                                                         <constraint firstAttribute="width" constant="383" id="GuD-PT-RPV"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-i6-wpy">
-                                                    <rect key="frame" x="259" y="303" width="92" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="92" id="WRj-1d-ZxI"/>
-                                                    </constraints>
-                                                    <state key="normal" title="Go to Menu"/>
-                                                    <connections>
-                                                        <segue destination="OO0-rE-0s1" kind="show" id="zF1-HJ-3fz"/>
-                                                    </connections>
-                                                </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tik" translatesAutoresizingMaskIntoConstraints="NO" id="4JS-eq-O7m">
                                                     <rect key="frame" x="24" y="266" width="38" height="51"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-i6-wpy">
+                                                    <rect key="frame" x="245" y="266" width="113" height="77"/>
+                                                    <color key="backgroundColor" red="0.3942701039" green="0.52396828949999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="113" id="WRj-1d-ZxI"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Go to Menu">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="OO0-rE-0s1" kind="show" id="zF1-HJ-3fz"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="7nc-BI-uZc" firstAttribute="centerY" secondItem="Eg4-Pa-HOm" secondAttribute="centerY" constant="-51.75" id="6dp-qF-wGt"/>
                                                 <constraint firstItem="gNs-VI-Rma" firstAttribute="trailing" secondItem="Eg4-Pa-HOm" secondAttribute="trailingMargin" constant="-54" id="9fI-lI-3Al"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="7nc-BI-uZc" secondAttribute="bottom" constant="173" id="FgE-rF-O33"/>
-                                                <constraint firstItem="cOc-i6-wpy" firstAttribute="centerX" secondItem="7nc-BI-uZc" secondAttribute="centerX" constant="98.5" id="Fls-ug-n8X"/>
+                                                <constraint firstItem="cOc-i6-wpy" firstAttribute="centerX" secondItem="7nc-BI-uZc" secondAttribute="centerX" constant="95" id="Fls-ug-n8X"/>
                                                 <constraint firstItem="e4Q-iD-4DZ" firstAttribute="top" secondItem="gNs-VI-Rma" secondAttribute="bottom" constant="5" id="IsW-lB-oQj"/>
                                                 <constraint firstItem="7nc-BI-uZc" firstAttribute="top" secondItem="e4Q-iD-4DZ" secondAttribute="bottom" id="JzN-9G-CxY"/>
                                                 <constraint firstItem="gNs-VI-Rma" firstAttribute="top" secondItem="Eg4-Pa-HOm" secondAttribute="topMargin" constant="-2" id="MVY-d7-uvQ"/>
                                                 <constraint firstItem="7nc-BI-uZc" firstAttribute="leading" secondItem="Eg4-Pa-HOm" secondAttribute="leadingMargin" id="VFJ-8I-eVS"/>
                                                 <constraint firstItem="7nc-BI-uZc" firstAttribute="top" secondItem="Eg4-Pa-HOm" secondAttribute="topMargin" constant="69" id="W0E-7D-xio"/>
-                                                <constraint firstItem="cOc-i6-wpy" firstAttribute="top" secondItem="Eg4-Pa-HOm" secondAttribute="top" constant="303" id="ei7-HR-8di"/>
+                                                <constraint firstItem="cOc-i6-wpy" firstAttribute="top" secondItem="Eg4-Pa-HOm" secondAttribute="top" constant="266" id="ei7-HR-8di"/>
                                                 <constraint firstItem="7nc-BI-uZc" firstAttribute="leading" secondItem="Eg4-Pa-HOm" secondAttribute="leadingMargin" id="eyj-TZ-tea"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="7nc-BI-uZc" secondAttribute="trailing" constant="-9" id="f2f-GR-orB"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="cOc-i6-wpy" secondAttribute="bottom" constant="98" id="k0V-Kf-hFJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="cOc-i6-wpy" secondAttribute="bottom" constant="88" id="k0V-Kf-hFJ"/>
                                                 <constraint firstItem="gNs-VI-Rma" firstAttribute="leading" secondItem="7nc-BI-uZc" secondAttribute="trailing" constant="-379" id="msX-19-rmq"/>
-                                                <constraint firstItem="cOc-i6-wpy" firstAttribute="bottom" secondItem="WJh-2w-OAF" secondAttribute="bottom" constant="-84" id="mxB-vu-hSX"/>
+                                                <constraint firstItem="cOc-i6-wpy" firstAttribute="bottom" secondItem="WJh-2w-OAF" secondAttribute="bottom" constant="-74" id="mxB-vu-hSX"/>
                                                 <constraint firstItem="e4Q-iD-4DZ" firstAttribute="leading" secondItem="7nc-BI-uZc" secondAttribute="trailing" constant="-379" id="otg-jA-zm5"/>
                                                 <constraint firstItem="e4Q-iD-4DZ" firstAttribute="trailing" secondItem="Eg4-Pa-HOm" secondAttribute="trailingMargin" constant="9" id="zpl-uI-17R"/>
                                             </constraints>

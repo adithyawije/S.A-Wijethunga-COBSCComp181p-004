@@ -35,23 +35,41 @@ class AddPostViewController: UIViewController {
         self.present(imagePicker, animated: true, completion: nil)
     }
     
-    @IBAction func savePost(_ sender: Any) {
-        if (titlePost.text == "") {
-            alert(message: "title is required")
-            return
-        }
+//    @IBAction func savePost(_ sender: Any) {
+//        if (titlePost.text == "") {
+//            alert(message: "title is required")
+//            return
+//        }
+//
+//        if (postDescription.text == ""){
+//            alert(message: "Description Is Required")
+//            return
+//        }
+//        if (imagePost.image == nil){
+//            alert(message: "Image Is Required")
+//            return
+//        }
+//        self.saveFIRData()
+//        navigationController?.popViewController(animated: true)
+//    }
+    @IBAction func addPost(_ sender: Any) {
+                if (titlePost.text == "") {
+                    alert(message: "title is required")
+                    return
+                }
         
-        if (postDescription.text == ""){
-            alert(message: "Description Is Required")
-            return
-        }
-        if (imagePost.image == nil){
-            alert(message: "Image Is Required")
-            return
-        }
-        self.saveFIRData()
-        navigationController?.popViewController(animated: true)
+                if (postDescription.text == ""){
+                    alert(message: "Description Is Required")
+                    return
+                }
+                if (imagePost.image == nil){
+                    alert(message: "Image Is Required")
+                    return
+                }
+                self.saveFIRData()
+                navigationController?.popViewController(animated: true)
     }
+    
     func saveFIRData(){
         self.uploadMedia(image: imagePost.image!){ url in
             self.saveImage(profileImageURL: url!){ success in
