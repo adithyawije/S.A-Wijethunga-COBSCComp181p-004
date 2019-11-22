@@ -1,0 +1,6 @@
+framework module Pods_S_A_Wijethunga_COBSCComp181p_004 {
+  umbrella header "Pods-S.A-Wijethunga-COBSCComp181p-004-umbrella.h"
+
+  export *
+  module * { export * }
+}
