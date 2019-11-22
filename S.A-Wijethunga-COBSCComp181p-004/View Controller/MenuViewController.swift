@@ -2,25 +2,21 @@
 //  MenuViewController.swift
 //  S.A-Wijethunga-COBSCComp181p-004
 //
-//  Created by Digital-02 on 11/14/19.
-//  Copyright © 2019 Digital-02. All rights reserved.
+//  Created by Isuru Devinda on 11/22/2562 BE.
+//  Copyright © 2562 BE Digital-02. All rights reserved.
 //
 
 import UIKit
 
-class MenuViewController: UITableViewController {
+class MenuViewController: UIViewController {
 
-    override func viewDidLoad() { 
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func viewProfile(_ sender: Any) {
-        
-    }
-    
-    
+
     /*
     // MARK: - Navigation
 

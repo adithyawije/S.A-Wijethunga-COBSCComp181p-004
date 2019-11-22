@@ -19,6 +19,7 @@
 		8C97FDD0238427D600ED7259 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C97FDCF238427D600ED7259 /* GoogleService-Info.plist */; };
 		8C97FDD22384313300ED7259 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97FDD12384313300ED7259 /* Utils.swift */; };
 		8CC8B4992386CB6F00C19146 /* PostMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8B4982386CB6F00C19146 /* PostMethod.swift */; };
+		D919F2402388450C00491101 /* MenuClickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D919F23F2388450C00491101 /* MenuClickViewController.swift */; };
 		D9FBCB802387CB9200905C50 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBCB7F2387CB9200905C50 /* AddPostViewController.swift */; };
 		D9FBCB822387D8FC00905C50 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBCB812387D8FC00905C50 /* HomeViewController.swift */; };
 		D9FBCB842387D9F700905C50 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBCB832387D9F700905C50 /* PostCell.swift */; };
@@ -41,6 +42,7 @@
 		8C97FDCF238427D600ED7259 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8C97FDD12384313300ED7259 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		8CC8B4982386CB6F00C19146 /* PostMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMethod.swift; sourceTree = "<group>"; };
+		D919F23F2388450C00491101 /* MenuClickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuClickViewController.swift; sourceTree = "<group>"; };
 		D9FBCB7F2387CB9200905C50 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		D9FBCB812387D8FC00905C50 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D9FBCB832387D9F700905C50 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = "S.A-Wijethunga-COBSCComp181p-004/View Controller/PostCell.swift"; sourceTree = SOURCE_ROOT; };
@@ -104,6 +106,7 @@
 				8C63BA77238422FB004BA9B6 /* SignInViewController.swift */,
 				D9FBCB7F2387CB9200905C50 /* AddPostViewController.swift */,
 				D9FBCB812387D8FC00905C50 /* HomeViewController.swift */,
+				D919F23F2388450C00491101 /* MenuClickViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				8C96741E237D8F180070BC02 /* ViewController.swift in Sources */,
 				8C2379E9237D86BC00DA9710 /* S_A_Wijethunga_COBSCComp181p_004.xcdatamodeld in Sources */,
+				D919F2402388450C00491101 /* MenuClickViewController.swift in Sources */,
 				8C2379E1237D86BC00DA9710 /* AppDelegate.swift in Sources */,
 				8C63BA78238422FB004BA9B6 /* SignInViewController.swift in Sources */,
 				D9FBCB802387CB9200905C50 /* AddPostViewController.swift in Sources */,
